@@ -1,0 +1,66 @@
+
+function dump(o)
+	if type(o) == 'table' then
+		local s = '{ '
+		for k,v in pairs(o) do
+			if type(k) ~= 'number' then k = '"'..k..'"' end
+			s = s .. '['..k..'] = ' .. dump(v) .. ','
+		end
+		return s .. '} '
+	else
+		return tostring(o)
+	end
+end
+
+function init(self)
+	msg.post(".", "acquire_input_focus")
+
+	self.card = collectionfactory.create("/root#collectionfactory")
+
+	go.set(self.card[hash("/card")], "position", vmath.vector3(350, 350, 0))
+end
+
+function on_message(self, message_id, message, sender)
+	print(message_id)
+	print(message)
+	if message_id == hash("swap_atlas") then
+		print('swapping atlas')
+		local sprite_url = msg.url(nil, self.card[hash("/art")], "sprite")
+		print(sprite_url)
+		go.set(sprite_url, "image", message.atlas)
+	end
+
+	if message_id == hash("load_art") and not self.hires_art then
+		-- TODO check to see if we should download missing resources and download them
+		local missing_resources = collectionproxy.missing_resources("/root#proxy_art_hires")
+		print('missing resources:', dump(missing_resources))
+
+		print('loading art')
+		if #missing_resources > 0 then
+			-- WIP download and mount the zip file
+			local path = sys.get_save_file("galaxy", "downloads/art_set1_hires.zip")
+			print("zip file should be located at :" , path)
+
+			if not liveupdate then return end -- we are in editor, so abort.
+
+			-- TODO: check if file is there, if not then download it first.
+			liveupdate.add_mount('hires_art', "zip:" .. path, 1, function(_uri, _path, _status)
+				print('Callback complete!\nuri: ', _uri)
+				print('path: ', _path)
+				print('status: ', _status)
+
+				msg.post(".", "load_art", message)
+			end)
+		else
+			msg.post("/root#proxy_art_hires", "load")
+		end
+	end
+
+	if message_id == hash("proxy_loaded") then
+		self.hires_art = sender
+		print('proxy loaded: ', self.hires_art)
+
+		-- it must be init'd and enabled for resources to be availablel and render
+		msg.post(sender, "init")
+	end
+end

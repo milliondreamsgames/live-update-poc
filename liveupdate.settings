@@ -1,0 +1,5 @@
+[liveupdate]
+mode = Zip
+zip-filepath = /Users/charliehelman/Desktop/galaxy_bundles
+supported-versions = "0.0.1"
+

@@ -1,0 +1,7 @@
+go.property("atlas_hires", resource.atlas("/hi_res/hi_res.atlas"))
+
+function init(self)
+	print('hires art loaded, telling main collection to use my atlas:')
+	print(self.atlas_hires)
+	msg.post("main:/root#main", "swap_atlas", { atlas = self.atlas_hires })
+end

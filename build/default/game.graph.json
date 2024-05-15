@@ -1,0 +1,202 @@
+[ {
+  "path" : "/<AnonymousRoot>",
+  "hexDigest" : null,
+  "isInMainBundle" : false,
+  "children" : [ "/main/main.collectionc", "/builtins/render/default.renderc", "/input/game.input_bindingc", "/builtins/input/default.gamepadsc", "/builtins/render/default.display_profilesc", "/builtins/scripts/debugger.luac" ]
+}, {
+  "path" : "/main/main.collectionc",
+  "hexDigest" : "74215401a86eafe012644f6a1cb3042ccb8102ea",
+  "isInMainBundle" : true,
+  "children" : [ "/_generated_9994968b3df73371.goc" ]
+}, {
+  "path" : "/_generated_9994968b3df73371.goc",
+  "hexDigest" : "7270bec9a6feef75b2d892370456d8579275988c",
+  "isInMainBundle" : true,
+  "children" : [ "/main/main.scriptc", "/main/main.guic", "/_generated_ac7597ace14442f7.collectionfactoryc", "/_generated_7aa4cea7106c0d18.collectionproxyc" ]
+}, {
+  "path" : "/main/main.scriptc",
+  "hexDigest" : "dda5161f21ee5380b41c1c732a395fa9946d7c6d",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/main/main.guic",
+  "hexDigest" : "d69644294f464763fef46ee2e98b96b30762bfaa",
+  "isInMainBundle" : true,
+  "children" : [ "/main/main.gui_scriptc", "/builtins/fonts/debug/always_on_top.fontc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/main.gui_scriptc",
+  "hexDigest" : "03159789720d2f8b306ad087f199622ec6252fb8",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/builtins/fonts/debug/always_on_top.fontc",
+  "hexDigest" : "6d1080ddab2c576aef02ff9cc33920d6cbcaddef",
+  "isInMainBundle" : true,
+  "children" : [ "/_generated_ea92dd02716004a2.glyph_bankc", "/builtins/fonts/debug/always_on_top_font.materialc" ]
+}, {
+  "path" : "/_generated_ea92dd02716004a2.glyph_bankc",
+  "hexDigest" : "49dd13162d55b71b7ea18d325434e582dba5ead5",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/builtins/fonts/debug/always_on_top_font.materialc",
+  "hexDigest" : "17ff07967b7ce9f34d94ece30cf5a12a0e6f07e1",
+  "isInMainBundle" : true,
+  "children" : [ "/builtins/fonts/font.vpc", "/builtins/fonts/font.fpc" ]
+}, {
+  "path" : "/builtins/fonts/font.vpc",
+  "hexDigest" : "b0be59b9631c9a073f7038c90d10c9bb646f1472",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/builtins/fonts/font.fpc",
+  "hexDigest" : "7c60bcfeeb944a60ca3a2da7158b8be967d19ee6",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/gui.materialc",
+  "hexDigest" : "5473f20bbdd848320f75a0d66ccc4dadad84ccf9",
+  "isInMainBundle" : true,
+  "children" : [ "/builtins/materials/gui.vpc", "/builtins/materials/gui.fpc" ]
+}, {
+  "path" : "/builtins/materials/gui.vpc",
+  "hexDigest" : "b55464076f74ff62edcd6efb9673e89b69601a86",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/gui.fpc",
+  "hexDigest" : "1c405fdfed99417ce9d2e3ae51b7adccbfea8c4b",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/_generated_ac7597ace14442f7.collectionfactoryc",
+  "hexDigest" : "0927d8e689647100b7a48f4a64ef60f425a7f3b1",
+  "isInMainBundle" : true,
+  "children" : [ "/main/card.collectionc" ]
+}, {
+  "path" : "/main/card.collectionc",
+  "hexDigest" : "823fc18643e1b0c7babe34368749af5ef9057fe8",
+  "isInMainBundle" : true,
+  "children" : [ "/_generated_0.goc", "/_generated_886c89ddbb6e963d.goc" ]
+}, {
+  "path" : "/_generated_0.goc",
+  "hexDigest" : "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/_generated_886c89ddbb6e963d.goc",
+  "hexDigest" : "eab742f86e5f6cb4b28d74b5c9bed68aa00c604b",
+  "isInMainBundle" : true,
+  "children" : [ "/_generated_1214b76a495bb5d6.spritec" ]
+}, {
+  "path" : "/_generated_1214b76a495bb5d6.spritec",
+  "hexDigest" : "9c6c118729e5f0274536313816ceac2c38fd7628",
+  "isInMainBundle" : true,
+  "children" : [ "/builtins/materials/sprite.materialc", "/low_res/low_res.a.texturesetc" ]
+}, {
+  "path" : "/builtins/materials/sprite.materialc",
+  "hexDigest" : "db13f53b2e820569ae3414fc55947f6c083434b9",
+  "isInMainBundle" : true,
+  "children" : [ "/builtins/materials/sprite.vpc", "/builtins/materials/sprite.fpc" ]
+}, {
+  "path" : "/builtins/materials/sprite.vpc",
+  "hexDigest" : "28df0aeb126b7d97bed81e25f658d1970e8680e8",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/sprite.fpc",
+  "hexDigest" : "f9e9c8de6fbb867648bd3110e5aaced2fd6e72c4",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/low_res/low_res.a.texturesetc",
+  "hexDigest" : "231258b962098da47585d210af8ee101b1e3b63f",
+  "isInMainBundle" : true,
+  "children" : [ "/low_res/low_res.texturec" ]
+}, {
+  "path" : "/low_res/low_res.texturec",
+  "hexDigest" : "714d20257b821bd5153579e0260ba3853e46b79a",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/_generated_7aa4cea7106c0d18.collectionproxyc",
+  "hexDigest" : "cf743b13321f29fab376a936db8ecc9920bb2e68",
+  "nodeType" : "ExcludedCollectionProxy",
+  "isInMainBundle" : true,
+  "children" : [ "/hi_res/hi_res_art.collectionc" ]
+}, {
+  "path" : "/hi_res/hi_res_art.collectionc",
+  "hexDigest" : "02b35808bcc3dc32eafbb338c40cc5a2ab962821",
+  "isInMainBundle" : false,
+  "children" : [ "/_generated_e21489df038fb3c9.goc" ]
+}, {
+  "path" : "/_generated_e21489df038fb3c9.goc",
+  "hexDigest" : "d6583774ff0c5ab59ff14349e00ed5cc92bfedf6",
+  "isInMainBundle" : false,
+  "children" : [ "/hi_res/hi_res_art.scriptc", "/_generated_eee8177697b05d39.spritec" ]
+}, {
+  "path" : "/hi_res/hi_res_art.scriptc",
+  "hexDigest" : "1d42b92047d7c969525aafb406210374f00b2b8c",
+  "isInMainBundle" : false,
+  "children" : [ "/hi_res/hi_res.a.texturesetc" ]
+}, {
+  "path" : "/hi_res/hi_res.a.texturesetc",
+  "hexDigest" : "183d0b3ebbaeb90b80c18a8c26c8be30e199ce47",
+  "isInMainBundle" : false,
+  "children" : [ "/hi_res/hi_res.texturec" ]
+}, {
+  "path" : "/hi_res/hi_res.texturec",
+  "hexDigest" : "a14cb7b9979c2e74a24a69b1569e452e7b4d5fc2",
+  "isInMainBundle" : false,
+  "children" : [ ]
+}, {
+  "path" : "/_generated_eee8177697b05d39.spritec",
+  "hexDigest" : "6752219c7b6ee942822cec11c8b3ac7365b4ed27",
+  "isInMainBundle" : false,
+  "children" : [ "/builtins/materials/sprite.materialc", "/hi_res/hi_res.a.texturesetc" ]
+}, {
+  "path" : "/builtins/render/default.renderc",
+  "hexDigest" : "62fcf66fed9988305fe48996f4d7693b2fac6e49",
+  "isInMainBundle" : true,
+  "children" : [ "/builtins/render/default.render_scriptc" ]
+}, {
+  "path" : "/builtins/render/default.render_scriptc",
+  "hexDigest" : "bc58f457cd285214314aba41eff4ccae2e8bc277",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/input/game.input_bindingc",
+  "hexDigest" : "0297215c339cdc57d00f8fc48ac730bdd0d2965a",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/builtins/input/default.gamepadsc",
+  "hexDigest" : "262ca044abd8e690f9371cfee60bf39fcd99adb2",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/builtins/render/default.display_profilesc",
+  "hexDigest" : "4187e11a10b0dd0d7f1b34d3ae3c0e9632dc69fd",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/builtins/scripts/debugger.luac",
+  "hexDigest" : "d974a514509b08850357c0f7c5a1cc8e21e7a7f1",
+  "isInMainBundle" : true,
+  "children" : [ "/builtins/scripts/edn.luac", "/builtins/scripts/mobdebug.luac" ]
+}, {
+  "path" : "/builtins/scripts/edn.luac",
+  "hexDigest" : "d2c1788bae042a5267658ef29cbbd385456ce9d6",
+  "isInMainBundle" : true,
+  "children" : [ ]
+}, {
+  "path" : "/builtins/scripts/mobdebug.luac",
+  "hexDigest" : "713c86dfa3fd97d9ee02c33b7e32115dc7c5b457",
+  "isInMainBundle" : true,
+  "children" : [ "/builtins/scripts/socket.luac", "/builtins/scripts/edn.luac" ]
+}, {
+  "path" : "/builtins/scripts/socket.luac",
+  "hexDigest" : "654769d5b9f7ff49a7f85042d3d811be4729233a",
+  "isInMainBundle" : true,
+  "children" : [ ]
+} ]
